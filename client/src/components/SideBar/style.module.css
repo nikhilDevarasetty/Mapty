@@ -1,0 +1,56 @@
+.logo {
+  height: 3.5rem;
+  align-self: center;
+  margin-left: 30%;
+  /* margin-bottom: 4rem; */
+}
+
+.item {
+  list-style: none;
+  background-color: #42484d;
+  height: auto;
+  width: auto;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  border-left: 5px solid #ffb545;
+  border-radius: 5px;
+}
+
+.items {
+  /* padding: 1.5rem 1rem; */
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+  cursor: pointer;
+
+  /* display: grid; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.75rem 1.5rem;
+}
+
+.description {
+  margin-top: 4px;
+  height: 3rem;
+  word-wrap: break-word;
+}
+
+.delete {
+  float: right;
+  background: #ff6347;
+}
+
+.update {
+  background: #3cb371;
+}
+
+.buttons {
+  padding: 7px;
+  font-weight: 700;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}

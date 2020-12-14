@@ -1,0 +1,33 @@
+/* :root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--1:;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+} */
+
+.App {
+  height: 100vh;
+  background-color: #ececec;
+  display: flex;
+  margin: 0;
+  padding: 1.2rem;
+}
+/* SIDEBAR */
+.sidebar {
+  background-color: #2d3439;
+  width: 30%;
+  padding: 2rem 1rem 2rem 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: white;
+  overflow: auto;
+}
+/* MAP */
+.map {
+  background-color: #aaa;
+  flex: 1;
+}
